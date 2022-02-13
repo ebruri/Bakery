@@ -18,6 +18,10 @@ namespace Bakery.Models
   }
   public class Pastry
   {
-    
+    public string Amount {get; set;}
+    public Pastry(string amount)
+    {
+      Amount = amount;
+    }
   }
 }
