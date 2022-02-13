@@ -23,5 +23,11 @@ namespace Bakery.Models
     {
       Amount = amount;
     }
+    public int PastryCost()
+    {
+      int dealPrice = int.Parse(this.Amount) / 3;
+      int regularPrice = int.Parse(this.Amount) % 3;
+      return dealPrice * 5 + regularPrice * 2;
+    }
   }
 }
