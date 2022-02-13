@@ -53,4 +53,4 @@ You are welcome to contribute to the code. You can also contact me with any ques
 
 Copyright (c) 2021 Ebru Rice
 
-Licensed under the [MIT license](license.txt)
+Licensed under the [MIT license]()
