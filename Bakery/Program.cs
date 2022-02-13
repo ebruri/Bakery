@@ -8,27 +8,20 @@ namespace Bakery
     public static void Main()
     {
       Console.WriteLine("Welcome to the Pierre's Bakery!");
-      Console.WriteLine("Would you like to buy bread or pastry?[bread/pastry]");
-      string order = Console.ReadLine();
-      Console.WriteLine("-----------------");
-      Console.WriteLine("How many would you like to buy?");
-      string quantity = Console.ReadLine();
-      if (order == "bread")
-      {
-        Bread newBread = new Bread(quantity);
-        int breadCost = newBread.BreadCost();
-        Console.WriteLine($"Total :  ${breadCost}");
-      }
-      else if (order == "pastry")
-      {
-        Pastry newPastry = new Pastry(quantity);
-        int pastryCost = newPastry.PastryCost();
-        Console.WriteLine($"Total : ${pastryCost}");
-      }
-      else
-      {
-        Main();
-      }
+      Console.WriteLine("How many bread would you like?");
+      string breadOrder = Console.ReadLine();
+      Console.WriteLine("-------------------------------");
+      Console.WriteLine("How many pastry would you like?");
+      string pastryOrder = Console.ReadLine();
+      Console.WriteLine("-------------------------------");
+      Bread newBread = new Bread(breadOrder);
+      Pastry newPastry = new Pastry(pastryOrder);
+      int totalCost = newBread.BreadCost() + newPastry.PastryCost();
+      Console.WriteLine($"{breadOrder} X Bread : ${newBread.BreadCost()}");
+      Console.WriteLine($"{pastryOrder} X Pastry : ${newPastry.PastryCost()}");
+      Console.WriteLine($"Total :  ${totalCost}");
+      Console.WriteLine("-------------------------------");
+      Console.WriteLine("-------------------------------"); 
       Main();
     }
   }
