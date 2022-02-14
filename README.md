@@ -11,7 +11,7 @@
 ## Technologies Used
 
 * C#
-* .Net
+* .NET 5.0
 
 
 ## Description
