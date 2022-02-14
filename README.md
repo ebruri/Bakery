@@ -24,18 +24,15 @@ A project for practicing C# Test Driven Development. The application takes the a
 
 * Navigate to the parent directory of your preference.
 
-* Clone this project using $ git clone https://github.com/ebruri/Bakery
+* Clone this project using <code>git clone https://github.com/ebruri/Bakery</code>
 
 * Navigate to the Bakery directory
 
-* Run command $ dotnet buil to install all dependencies.
+* Run command <code>dotnet build</code> to install all dependencies.
 
-* Run the command $ dotnet run to start the program.
+* Run the command <code>dotnet run</code> to start the program.
 
-* Navigate to the Bakery.Tests directory.
-
-* Run the command $ dotnet test to check the test pass.
-
+* Navigate to the Bakery.Tests directory and run the command <code>dotnet test</code> to check the tests pass.
 
 ## Known Bugs
 
