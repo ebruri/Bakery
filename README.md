@@ -12,11 +12,11 @@
 
 * C#
 * .NET 5.0
-
+* MSTest
 
 ## Description
 
-A project for practicing C# Test Driven Development. The application takes the amount as an input from the user and returns calculated total cost. 
+This is a console application built for Pierre's Bakery. It was built to practice test driven development with C# using MSTest. The application takes the inputted number of bread and pastries a user would like to buy. It then returns the total cost along with all the prices. 
 
 ## Setup/Installation Requirements
 
